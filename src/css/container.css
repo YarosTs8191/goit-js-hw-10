@@ -1,7 +1,10 @@
 /* Styles for Mobile devices */
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-width: 320px;
-  max-width: 375px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 0 16px;
 }
