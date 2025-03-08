@@ -29,15 +29,3 @@ document.querySelector('.form').addEventListener('submit', event => {
       });
     });
 });
-
-document.body.insertAdjacentHTML(
-  'beforeend',
-  `
-  <nav>
-    <ul>
-      <li><a href="1-timer.html">Timer</a></li>
-      <li><a href="2-snackbar.html">Snackbar</a></li>
-    </ul>
-  </nav>
-`
-);
